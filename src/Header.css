@@ -1,0 +1,24 @@
+.headerMainDiv{
+    height : 80px;
+    width : 85%;
+    border :1 px;
+    border-style: solid;
+    margin-left: 14.8%;
+    background-color: rgb(110, 149, 255);
+    border-color: rgb(110, 149, 255);
+    position: fixed;
+
+}
+
+.headerMainDiv button{
+    margin-left: 74%;
+    margin-top: 2%;
+    padding: 1%;
+    width: 20%;
+    color: rgb(89, 89, 237);
+    font-weight: bold;
+    border:4px;
+    border-style: solid;
+    border-color: rgb(89, 89, 237);
+    font-weight: bold;
+}

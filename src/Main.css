@@ -1,0 +1,116 @@
+.dateCalender{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.singleDiv{
+    width : 50%;
+    margin-left: 10%;
+}
+
+.buttonsDiv{
+    display: flex;
+    flex-direction: row;
+}
+
+.Button{
+    background-color: blue;
+    color: white;
+    padding: 3%;
+    width : 30%;
+    font-weight: bold;
+}
+
+.buttonsDiv div{
+    border : 3px;
+    border-width: 20%;
+    border-style: solid;
+    border-color: blue;
+    width : 35%;
+    padding-top: 2%;
+    padding-left: 5%;
+    color: blue;
+}
+
+body {
+    margin: 0;
+    font-family: "Lato", sans-serif;
+  }
+  
+  .sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: rgb(46, 46, 252);
+    color : white;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+
+  .iconn{
+    width : 50%;
+    font-size: 70px;
+  }
+  
+  .sidebar a {
+    display: block;
+    color : white;
+    font-weight: bold;
+    padding: 16px;
+    text-decoration: none;
+  }
+   
+  .sidebar a.active {
+    background-color: blue;
+    color: white;
+  }
+  
+  .sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+  
+  div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+  }
+  
+  .footer {
+      background-color: lightgray;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+      left: 200px;
+      color: black;
+  
+     }
+
+  .footer p{
+    font-size: 10px;
+    font-weight: bold;
+    margin-left: 40%;
+  }
+
+  
+
+ 
+
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+  }
+  
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }

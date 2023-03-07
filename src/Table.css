@@ -1,0 +1,25 @@
+table {
+    border-collapse: collapse;
+    width: 70%;
+    margin: auto;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+    border-style:solid;
+    border-color: rgb(29, 29, 105);
+    border-width: 3px;
+    margin-left: 5%;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #e9fdfd;
+  }
+
+  .headingTable{
+    color: blue;
+    margin-left: 45%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
