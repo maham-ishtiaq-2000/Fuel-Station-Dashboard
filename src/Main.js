@@ -1,4 +1,5 @@
 import React,{useState,useEffect} from 'react';
+import axios from 'axios';
 import Papa, { parse } from 'papaparse';
 import Barchart from './Barchart';
 import Tables from './Tables';
@@ -15,9 +16,24 @@ const Main = () => {
 
     useEffect(() => {
       setTimeout(() => setLoading(false), 3500)
+      getFuelDatas()
     }, [])
-
     let [parsedData, setParsedData] = useState([]);
+    const getFuelDatas = () => {
+        console.log("ok from the beginning")
+      axios.get("https://witty-hoodie-frog.cyclic.app/allFuelData")
+          .then((response) => {
+              console.log(response)
+              setParsedData(response.data.data)
+          })
+  
+          .catch(function (error) {
+  
+          });
+  }
+  console.log(parsedData)
+
+    
 
     //State to store table Column name
     let [tableRows, setTableRows] = useState([]);
@@ -349,15 +365,7 @@ const Main = () => {
          
    {/* File Uploader */}
    
-         <input
-             
-             type="file"
-             name="file"
-             accept=".csv"
-             style={{ display: "block", margin: "10px auto" , backgroundColor : 'lightblue' , color : 'white'}}
-             onChange={changeHandler}
-             
-         />
+        
          </div>
          <h2 id="C7"></h2>
          <div className='dateCalender'>

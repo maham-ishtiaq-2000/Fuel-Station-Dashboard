@@ -186,6 +186,7 @@ console.log(maxDate)
             <p className='info'>Total Non Fuel spend : <span>{singleDepData.nonFuelCost}</span></p>
             <p className='info'>Average Cost per gallons : <span>{singleDepData.avgCost}</span></p>
             <h3>Anomalies Test Last 24 Hrs </h3>
+            <p style={{"marginLeft" : "5%" , "color" : "blue" , "marginTop" : "2%" , "marginBottom" : "5%"}}>Driver Id and Pin which be shown only for that departments which are accessed in the last 24 hours . Eg : "PAINDY"</p>
             <table>
             <tr style={{"backgroundColor" : "blue" , "color" : "white"}}>
                         <th>Driver ID</th>

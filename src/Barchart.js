@@ -73,6 +73,7 @@ const Barchart = (props) =>{
                     ref = {chartRef}
                 ></Bar>
             </div>
+            <p style={{"marginLeft" : "17%" , "color" : "blue" , "marginTop" : "2%" , "marginBottom" : "5%"}}>Note : Press on the bar of the department whose data you want to display between the selected data.</p>
             <Tables  deptNames={deptNames} newjobs={props.newObjs1} name={props.graphName}></Tables>
         </>
     )
