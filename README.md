@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# Fuel Station Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This application is built using the MERN stack technology, enabling administrators to efficiently track fuel consumption by drivers across various apartments. It provides a comprehensive system for managing and monitoring fuel usage, promoting effective resource management and accountability.
 
-## Available Scripts
 
-In the project directory, you can run:
+## Project GIF
 
-### `npm start`
+<div class="gif-container" style="display: flex; justify-content: center; margin-left: auto; margin-right: auto;">
+    <img src="./MaptyGIF.gif" alt="Alt Text">
+</div>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🚀 Demo
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<a href="https://rahuldkjain.github.io/gh-profile-readme-generator" target="blank">
+<img src="https://img.shields.io/website?url=https%3A%2F%2Frahuldkjain.github.io%2Fgh-profile-readme-generator&logo=github&style=flat-square" />
+</a>
 
-### `npm test`
+Try the application: https://maham-ishtiaq-2000.github.io/Mapty/
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## 🛠️ Installation Steps
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repository
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+git clone https://github.com/maham-ishtiaq-2000/Mapty.git
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Change the working directory
 
-### `npm run eject`
+```bash
+cd Mapty.git
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. Install dependencies
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+npm install -y
+npm install parser
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+4. Run the app
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+npx index.html
+```
 
-## Learn More
+🌟 You are all set!
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 💻 Built with
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [HTML](https://www.gatsbyjs.com/) for structure
+- [CSS](https://tailwindcss.com/) for styling
+- [GoogleMaps] to access location
+- [JavaScript](https://greensock.com/gsap/) for adding functionality
