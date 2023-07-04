@@ -6,7 +6,7 @@ This application is built using the MERN stack technology, enabling administrato
 ## Project GIF
 
 <div class="gif-container" style="display: flex; justify-content: center; margin-left: auto; margin-right: auto;">
-    <img src="./MaptyGIF.gif" alt="Alt Text">
+    <img src="./fuelStationGIF.gif" alt="Alt Text">
 </div>
 
 ## 🚀 Demo
@@ -15,7 +15,7 @@ This application is built using the MERN stack technology, enabling administrato
 <img src="https://img.shields.io/website?url=https%3A%2F%2Frahuldkjain.github.io%2Fgh-profile-readme-generator&logo=github&style=flat-square" />
 </a>
 
-Try the application: https://maham-ishtiaq-2000.github.io/Mapty/
+Try the application: https://glittery-biscuit-a0736a.netlify.app/
 
 
 ## 🛠️ Installation Steps
@@ -23,33 +23,32 @@ Try the application: https://maham-ishtiaq-2000.github.io/Mapty/
 1. Clone the repository
 
 ```bash
-git clone https://github.com/maham-ishtiaq-2000/Mapty.git
+git clone https://github.com/maham-ishtiaq-2000/Fuel-Station-Dashboard.git
 ```
 
 2. Change the working directory
 
 ```bash
-cd Mapty.git
+cd Fuel-Station-Dashboard.git
 ```
 
 3. Install dependencies
 
 ```bash
-npm install -y
-npm install parser
+npm install --force
 ```
 
 4. Run the app
 
 ```bash
-npx index.html
+npm start
 ```
 
 🌟 You are all set!
 
 ## 💻 Built with
 
-- [HTML](https://www.gatsbyjs.com/) for structure
-- [CSS](https://tailwindcss.com/) for styling
-- [GoogleMaps] to access location
-- [JavaScript](https://greensock.com/gsap/) for adding functionality
+- [React] for UI and frontEnd part of application
+- [Express JS] for REST API's
+- [Node JS] for backend part of application
+- [MongoDB] for adding database
